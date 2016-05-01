@@ -1,0 +1,26 @@
+//- login.jade
+//- This file provides the HTML body part.
+doctype html
+html
+  include head
+  body
+    include header
+    #content
+      table
+        tr
+          td(style= "width:30%;" )
+            a(href="/"): img(src="/images/assessment-icon.png")
+          td
+            h1 Log in
+              p To log in the portal, you need to provide your username and password
+              form(name="createAccount", method="post")
+                span.label Username
+                br
+                input(type="text", name="username", size="20", maxlength="16")
+                br
+                span.label Password
+                br
+                input(type="password", name="password", size="20", maxlength="12")
+                br
+                input(type="submit", value="login")
+  include footer

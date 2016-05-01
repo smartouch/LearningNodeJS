@@ -1,0 +1,17 @@
+//- createAssessment.jade
+//- This file provides the HTML body part.
+doctype html
+html
+  include head
+  body
+    #header
+      include header
+    #content
+      table
+        tr
+          td(style= "width:30%;" )
+            a(href="/"): img(src="/images/assessment-icon.png")
+          td
+            h1 Assessment creation
+              p To create an assessment, enter your user id and a tite for the assessment
+  include footer

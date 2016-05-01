@@ -1,0 +1,21 @@
+{
+  "name": "identifier",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "Smartouch",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^2.3.3",
+    "chai": "^3.4.0",
+    "request": "^2.65.0",
+    "express": "^4.13.3",
+    "mocha-cucumber": "0.0.5"
+  }
+}

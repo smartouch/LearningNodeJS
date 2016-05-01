@@ -1,0 +1,27 @@
+{
+	"name": "SelfAssessmentBox",
+	"version": "0.0.1",
+	"description": "Self Assessment Web Application",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"test": "mocha"
+	},
+	"author": "Olivier Béghain",
+  	"license": "ISC",
+	"dependencies": {
+		"express": "^4.13.3",
+		"cfenv": "1.0.x",
+    	"jade": "^1.11.0",
+    	"busboy": "^0.2.9",
+    	"connect-busboy": "0.0.2",
+    	"body-parser": "^1.13.3",
+    	"cucumber": "^0.5.2",
+    	"mocha": "^2.3.0",
+    	"zombie": "2.0.0-alpha11"
+	},
+	"repository": {},
+	"engines": {
+		"node": "0.12.x"
+	} 
+}

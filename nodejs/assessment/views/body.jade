@@ -1,0 +1,21 @@
+//- body.jade
+//- This file provides the HTML body part.
+body
+  include header
+  #content
+    table
+      tr
+        td(style= "width:30%;" )
+          a(href="/"): img(src="/images/assessment-icon.png")
+        td
+          h1 Hi there!
+            p Welcome on the <span class = "blue">Self-Assessment Portal</span>. From here you can either initiate a new assessment or participate in an assessment.
+      tr
+        td
+        td
+          h2 <a href="/createAssessment">Create a new assessment</a>
+      tr
+        td
+        td
+          h2 <a href="/participateAssessment">Participate in an assessment</a>
+  include footer

@@ -1,0 +1,22 @@
+//- signin.jade
+//- This file provides the HTML body part.
+doctype html
+html
+  include head
+  body
+    include header
+    #content
+      table
+        tr
+          td(style= "width:30%;" )
+            a(href="/"): img(src="/images/assessment-icon.png")
+          td
+            h1 Sign in
+              p To sign in the portal, you need to provide a valid email address and specify a user identifier
+              form(name="createAccount", method="post")
+                span.label email
+                input(type="text", name="email")
+                span.label account
+                input(type="text", name="account")
+                input(type="submit", value="create")
+  include footer
